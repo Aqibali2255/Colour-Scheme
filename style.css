@@ -1,0 +1,61 @@
+h1 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.button {
+    padding: 30px 40px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.text {
+    margin: 100px 100px;
+    text-align: center;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#grey {
+    background-color: gray;
+}
+
+#white {
+    background-color: white;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+/* ...Responsive............ */
+
+@media (max-width: 786px) {
+
+    h1 {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .button {
+        padding: 30px 40px;
+        margin-top: 30px;
+    }
+
+    .text {
+        margin: 100px 100px;
+        text-align: center;
+    }
+}
